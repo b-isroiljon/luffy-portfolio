@@ -2,16 +2,16 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=n , initial-scale=1.0" />
+    <title>Luffy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.cjs.js"
-        integrity="sha512-7m9S6PzUY75+/V5GIWRP19NFD1MgYpzbmbbSfUMnj8PMtkOj/XZs4BmxXvXku2litdO4qDrVhGtFkk2MVWlpcg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -20,13 +20,13 @@
         <div class="container">
             <div class="main-navigation__brand">
                 <a href="index.html">
-                    <img src="./images/logo.jpg" alt="logo">
+                    <img src="./images/logo-2.png" alt="logo">
                 </a>
             </div>
             <nav class="main-navigation">
                 <ul class="main-navigation__items">
                     <li class="main-navigation__item active">
-                        <a href="#">Главный</a>
+                        <a href="./index.html">Главный</a>
                     </li>
 
                     <li class="main-navigation__item">
@@ -52,6 +52,9 @@
                     <li class="main-navigation__item">
                         <a href="#">Сотрдудничество</a>
                     </li>
+                    <li class="main-navigation__item">
+                        <a href="./contact.html">contact</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -64,12 +67,31 @@
             <section id="main-section" class="main-section">
                 <div class="main-section__info">
                     <h4 class="main-section__welcome">Hey there</h4>
-                    <h1 class="main-section__introduction">I'm Jony Anderson</h1>
-                    <h3 class="main-section__position">IT specialist</h3>
+                    <h1 class="main-section__introduction">I'm Monkey D. Luffy</h1>
+                    <h3 class="main-section__position">Сaptain</h3>
                     <div class="main-section__social-network">
-                        <a href="https://www.instagram.com/">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                        </a>
+                        <ul class="footer__socials">
+                            <li class="main__social">
+                                <a href="#">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                            </li>
+                            <li class="main__social">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="main__social">
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="main__social">
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                     <button type="button" class="main-section__action">
                         My works
@@ -118,8 +140,7 @@
     <div class="container">
         <section id="about-me" class="about-me">
             <div class="about-me__image">
-                <img src="./images/luffy-about-me.png"
-                    alt="about me">
+                <img src="./images/4-geer.png" alt="about me">
             </div>
             <div class="about-me__info">
                 <h5 class="section-subtitle">
@@ -153,44 +174,42 @@
             <h2 class="section-title">
                 наши Услуги<br>
                 которые есть в данный момент
-                <div class="services__cards">
-                    <div class="services-cards">
-                        <img class="service-card__icon" src="./images/service-1.png"
-                            alt="straw-hat">
-                        <h5 class="service-card__title"> наши услуги от пиратов соломенной шляпы</h5>
-                        <p class="service-card__description">
-                            elit. Aliquam sunt totam pariatur porro alias officia, quod modi, repudiandae et veritatis,
-                            vitae numquam at illum corrupti. Cum recusandae animi eveniet aspernatur?
-                        </p>
-                        <a href="#" class="service-card__link">
-                            more
-                        </a>
-                    </div>
-                    <div class="services-cards">
-                        <img class="service-card__icon"
-                            src="../luffy-portfolio/images/service-2.jpg" alt="icon">
-                        <h5 class="service-card__title">услуги от пиратов СЕРДЦА </h5>
-                        <p class="service-card__description">
-                            Пираты Сердца используют субмарину (潜水艦 sensuikan?) под названием Полярный Тан в качестве
-                            основного вида транспорта. Впервые она появилась
-                        </p>
-                        <a href="#" class="service-card__link">
-                            more
-                        </a>
-                    </div>
-                    <div class="services-cards">
-                        <img class="service-card__icon" src="/luffy-portfolio/images/service-3.png"
-                            alt="icon">
-                        <h5 class="service-card__title">услуги красновлосого шанкса</h5>
-                        <p class="service-card__description">
-                            Красноволосый Шанкс — пират и капитан пиратов Красноволосого родом из Вест Блю. Также бывший
-                            юнга команды Короля Пиратов Гол Д.
-                        </p>
-                        <a href="#" class="service-card__link">
-                            more
-                        </a>
-                    </div>
+            </h2>
+            <div class="services__cards">
+                <div class="services-cards">
+                    <img class="service-card__icon" src="./images/service-1.png" alt="straw-hat">
+                    <h5 class="service-card__title"> наши услуги от пиратов соломенной шляпы</h5>
+                    <p class="service-card__description">
+                        elit. Aliquam sunt totam pariatur porro alias officia, quod modi, repudiandae et veritatis,
+                        vitae numquam at illum corrupti. Cum recusandae animi eveniet aspernatur?
+                    </p>
+                    <a href="#" class="service-card__link">
+                        more
+                    </a>
                 </div>
+                <div class="services-cards">
+                    <img class="service-card__icon" src="./images/service-2.jpg" alt="icon">
+                    <h5 class="service-card__title">услуги от пиратов СЕРДЦА </h5>
+                    <p class="service-card__description">
+                        Пираты Сердца используют субмарину (潜水艦 sensuikan?) под названием Полярный Тан в качестве
+                        основного вида транспорта. Впервые она появилась
+                    </p>
+                    <a href="#" class="service-card__link">
+                        more
+                    </a>
+                </div>
+                <div class="services-cards">
+                    <img class="service-card__icon" src="./images/service-3.png" alt="icon">
+                    <h5 class="service-card__title">услуги красновлосого шанкса</h5>
+                    <p class="service-card__description">
+                        Красноволосый Шанкс — пират и капитан пиратов Красноволосого родом из Вест Блю. Также бывший
+                        юнга команды Короля Пиратов Гол Д.
+                    </p>
+                    <a href="#" class="service-card__link">
+                        more
+                    </a>
+                </div>
+            </div>
             </h2>
         </section>
     </div>
@@ -210,28 +229,29 @@
             <div class="clients-item">
                 <div class="client-item">
                     <div class="client-item__image">
-                        <img src="C:\Users\User\Desktop\програмирование\images\pngegg.png" alt="client image">
+                        <img src="./images/sanji-1.jpg" alt="client image">
                     </div>
                     <div class="client-item__info">
                         <h3 class="client-item__name">
-                            shakha mahruppi
+                            Vinsmoke Sanji
                         </h3>
                         <p class="client-item__position">
-                            captain
+                            Head Chef
                         </p>
                         <p class="client-item__rew\view">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil consequuntur aliquam
-                            voluptates
-                            quam assumenda repudiandae odio esse iusto similique, impedit corporis magni blanditiis
-                            harum,
-                            mollitia obcaecati quaerat ex odit saepe.
+                            
+“	Даже если я умру, я никогда не ударю женщину!	”<br><br>
+Также он поклялся, что никогда не позволит женщинам быть оскорблёнными или раненными,
+ не зависимо от их привлекательности, и придерживается этой клятвы даже если она может привести к его смерти.
+  Это зачастую создаёт проблемы во время битв, когда он не может атаковать женщин, предпочитая умереть, чем сделать им больно (хотя это не значит, что он не будет защищаться от чужих атак; он даже навёл на Нико Робин пистолет, когда было выявлено, что она является членом Барок Воркс). Когда он почувствовал плач Тасиги, он даже решился оторваться от остальной части команды, только чтобы защитить её от Верго,<br><br>
                         </p>
                         <div class="client-item__rate">
                             <i class="fa fa-star" style="color: #fbff24;"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
-                            <i class="fa fa-regular fa-star"></i>
+                            <i class="fa fa-star" style="color: #fbff24;"></i>
+                            <i class="fa fa-star" style="color: #fbff24;"></i>
+                            <i class="fa fa-star" style="color: #fbff24;"></i>
+                            <i class="fa fa-star" style="color: #fbff24;"></i>
+                            
                         </div>
                     </div>
                 </div>
@@ -249,8 +269,8 @@
                 My works <span class="blur-line"></span>
             </div>
             <div class="section-title">
-                My last <br />
-                works
+                My last <br>
+                Works
             </div>
             <ul class="portfolio-filters">
                 <li class="active">All</li>
@@ -259,8 +279,7 @@
             </ul>
             <div class="portfolio-items">
                 <div class="portfolio-item portfolio-item-1">
-                    <img src="./images/portfolio-1.jpg" alt="Portfolio image 1"
-                        class="portfolio-item__image" />
+                    <img src="./images/zoro.jpg" alt="Portfolio image 1" class="portfolio-item__image" />
                     <div class="portfolio-item__overlay"></div>
                     <div class="portfolio-item__info">
                         <h4>
@@ -270,8 +289,7 @@
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-item-2">
-                    <img src="./images/portfolio-2.jpg" alt="Portfolio image 2"
-                        class="portfolio-item__image" />
+                    <img src="./images/portfolio-2.jpg" alt="Portfolio image 2" class="portfolio-item__image" />
                     <div class="portfolio-item__overlay"></div>
                     <div class="portfolio-item__info">
                         <h4>
@@ -281,8 +299,7 @@
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-item-3">
-                    <img src="./images/portfolio-3.jpg" alt="Portfolio image 3"
-                        class="portfolio-item__image" />
+                    <img src="./images/lo.jpg" alt="Portfolio image 3" class="portfolio-item__image" />
                     <div class="portfolio-item__overlay"></div>
                     <div class="portfolio-item__info">
                         <h4>
@@ -303,7 +320,7 @@
                 my blogging <span class="blur-line"></span>
             </div>
             <div class="section-title">
-                my articles
+                My Obsession
             </div>
             <div class="blog-items">
                 <div class="blog-item">
@@ -322,7 +339,7 @@
                             </span>
                         </div>
                         <h5 class="blog-item__title">
-                            About Her
+                            Boa Henkok
                         </h5>
                         <p class="blog-item__description">
                             Пиратская Императрица Боа Хэнкок — единственная женщина среди бывших Шичибукаев. Она —
@@ -350,7 +367,7 @@
                             </span>
                         </div>
                         <h5 class="blog-item__title">
-                            About Her
+                            Nami-tuan
                         </h5>
                         <p class="blog-item__description">
                             Нами является высококвалифицированным штурманом и талантливым картографом. Её уровень
@@ -376,16 +393,17 @@
                             </span>
                             <span class="blog-item__date">
                                 <i class="fa fa-calendar"></i>
-                                Sept 2, 2000y
+                                jan 21. 2004 y
                             </span>
                         </div>
                         <h5 class="blog-item__title">
-                            About Her
+                            Nico Robin
                         </h5>
                         <p class="blog-item__description">
-                            Пиратская Императрица Боа Хэнкок — единственная женщина среди бывших Шичибукаев. Она —
-                            Принцесса Змей острова Амазон Лили и правит Она, как полагают многие, является самой
-                            красивой женщиной в мире.
+                            Робин также опытный археолог с обширным знанием истории и культуры.
+                            Она тот кто способен читать понеглифы, которые содержат информацию о древней истории. И это
+                            было фактической причиной,
+                            почему её первая награда была такой высокой в таком юном возрасте
                         </p>
                         <a class="blog-item__learn-more">
                             learn more..
@@ -398,32 +416,86 @@
     <!--/Blog secion-->
 
     <!--Partners section-->
-    <section id="Partners">
-        <h1>
-            Сотрдудничество
-        </h1>
-    </section>
+    <div class="container">
+        <section id="partners" class="partners">
+            <div class="partner">
+                <img src="./images/partner-1.png" alt="partner-1">
+            </div>
+            <div class="partner">
+                <img src="./images/partner-2.png" alt="partner-2">
+            </div>
+            <div class="partner">
+                <img src="./images/partner-3.png" alt="partner-3">
+            </div>
+            <div class="partner">
+                <img src="./images/partner-4.png" alt="partner-4">
+            </div>
+            <div class="partner">
+                <img src="./images/partner-5.png" alt="partner-5">
+            </div>
+        </section>
+    </div>
     <!--/Partners secion-->
 
     <!--footer section-->
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="#">Главный</a></li>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__brand">
+                <img src="./images/logo.jpg" alt="logo">
+            </div>
+            <nav class="footer__navigation">
+                <ul class="footer__navigation-items">
+                    <li class="footer__navigation-item">
+                        <a href="#">Главный</a>
+                    </li>
 
-                <li><a href="#">Обо мне</a></li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Обо мне</a>
+                    </li>
 
-                <li><a href="#">Услуги</a></li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Услуги</a>
+                    </li>
 
-                <li><a href="#">Клиенты</a></li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Клиенты</a>
+                    </li>
 
-                <li><a href="#">Portfolio</a></li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Portfolio</a>
+                    </li>
 
-                <li><a href="#">Блог</a></li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Блог</a>
+                    </li>
 
-                <li><a href="#">Сотрдудничество</a></li>
+                    <li class="footer__navigation-item">
+                        <a href="#">Сотрдудничество</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="footer__socials">
+                <li class="footer__social">
+                    <a href="#">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
             </ul>
-        </nav>
+
+            <p class="footer__text">
+                JC its jony Corp corpight rgerfergfa
+            </p>
+        </div>
     </footer>
     <!--/footer section-->
 </body>
