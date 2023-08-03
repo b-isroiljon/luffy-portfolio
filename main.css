@@ -42,11 +42,11 @@
     margin-bottom: 1.25rem;
 }
 
+
 .main__social {
-    display: inline-block;
-    width: 20px; 
+    display: inline-block; 
     height: 45px;
-    line-height: 45px;
+    line-height: 40px;
     background: #ffffff;
     border-radius: 36px;
     color: #05364d;
@@ -54,6 +54,9 @@
     margin-right: 12px;
 }
 
+.main__socials {
+    padding: 0;
+}
 .main-section__action {
     margin-top: 1.87rem;
     border: none;
